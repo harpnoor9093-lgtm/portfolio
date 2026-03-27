@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Mamta Rani | UX/UI Designer</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- HERO / LANDING -->
+<section class="hero">
+  <img src="profile.jpg" class="profile" alt="Mamta">
+
+  <h1>Mamta Rani</h1>
+  <p class="subtitle">UX/UI Designer based in Berlin</p>
+
+  <div class="hero-buttons">
+    <div class="hero-buttons">
+  <a href="https://www.behance.net/mamtarani27" target="_blank">Portfolio</a>
+  <a href="https://www.linkedin.com/in/mamta-rani-a8b059231/details/experience/" target="_blank">LinkedIn</a>
+  <a href="javascript:void(0)" onclick="toggleTools()">Tools</a>
+  <a href="javascript:void(0)" onclick="toggleAbout()">About</a>
+  <a href="#contact">Contact</a>
+  <a href="cv.pdf" target="_blank" class="btn">CV</a>
+</div>
+</div>
+  
+</section>
+</section> <!-- HERO END -->
+
+<!-- TOOLS (correct place) -->
+<section id="tools" class="tools">
+  <div class="tools-box">
+    <span>HTML</span>
+    <span>CSS</span>
+    <span>Figma</span>
+    <span>FigJam</span>
+    <span>Adobe Photoshop</span>
+    <span>Notion AI</span>
+  </div>
+
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="about">
+  <p>
+    I am a UX/UI Designer based in Berlin, focused on designing simple and intuitive digital experiences.
+    I enjoy transforming complex ideas into clear and user-friendly interfaces.
+    With a background in fashion design and running my own business, I bring creativity and practical thinking into my design work.
+  </p>
+</section>
+
+<section id="why" class="why">
+  <h2>Why Me</h2>
+  <p>
+    I design with clarity, empathy, and purpose. My goal is not just to make things look good,
+    but to create meaningful user experiences that solve real problems.
+  </p>
+</section>
+
+<section class="work-title">
+  <h2>My Work</h2>
+  <p>Selected projects showcasing UX thinking and visual design</p>
+</section>
+
+<!-- WORK (🔥 GALLERY STYLE) -->
+<section id="work" class="work">
+
+  <!-- Cafe -->
+<div class="work-card">
+  <img src="cafe15.png">
+
+  <div class="card-info">
+    <h3>Cafe Website</h3>
+    <p>Restaurant • UX/UI • Frontend</p>
+
+    <div class="buttons">
+      <a href="https://www.behance.net/gallery/246536781/Cafe-Website-UXUI-Design-Frontend-Development" target="_blank">Behance</a>
+      <a href="https://mamtaranide-maker.github.io/cafe-website/" target="_blank">Live</a>
+    </div>
+  </div>
+</div>
+
+  <!-- SaaS -->
+<div class="work-card">
+  <img src="saas.jpg">
+
+  <div class="card-info">
+    <h3>SaaS Dashboard</h3>
+    <p>AI • Analytics • UX/UI</p>
+
+    <div class="buttons">
+      <a href="https://www.behance.net/gallery/241882891/ClariBench-AI" target="_blank">Behance</a>
+      <a href="https://www.figma.com/design/hKR5863GaSkTEv2IV1RDp3/Saas-Projekt-Mamta-Rani" target="_blank">Figma</a>
+    </div>
+  </div>
+</div>
+
+ <!-- PupWell -->
+<div class="work-card">
+  <img src="pup.png">
+
+  <div class="card-info">
+    <h3>PupWell App</h3>
+    <p>Pet Care • Mobile App • UX/UI</p>
+
+    <div class="buttons">
+      <a href="https://www.behance.net/gallery/240428449/PetWell" target="_blank">Case Study</a>
+      <a href="https://www.figma.com/design/LIKjC0vXK03rCVhSWL2KM7/Untitled" target="_blank">Figma</a>
+    </div>
+  </div>
+</div>
+
+  <!-- QuitePulse -->
+<div class="work-card">
+  <img src="calm.png">
+
+  <div class="card-info">
+    <h3>QuitePulse App</h3>
+    <p>Wellness • Mindfulness • UX/UI</p>
+
+    <div class="buttons">
+      <a href="https://www.behance.net/gallery/240424149/QuitePulse-Mindfulness-Breathing-App" target="_blank">Case Study</a>
+      <a href="https://www.figma.com/design/x2DUOJrSR5vCKgqCgMvhjY/Untitled" target="_blank">Figma</a>
+    </div>
+  </div>
+</div>
+
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="contact">
+  <h2>Let's Connect</h2>
+  <p>Email: <a href="mailto:mamta.rani.de@gmail.com">mamta.rani.de@gmail.com</a></p>
+</section>
+<section class="open">
+  <h2>Open to Work</h2>
+  <p>I am currently available for UX/UI design opportunities.</p>
+</section>
+<script>
+function toggleAbout() {
+  const about = document.getElementById("about");
+  about.classList.toggle("active");
+}
+
+function toggleTools() {
+  const tools = document.getElementById("tools");
+  tools.classList.toggle("active");
+}
+</script>
+
+</body>
+</html>
