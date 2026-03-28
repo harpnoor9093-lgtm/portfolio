@@ -11,7 +11,7 @@ html {
 /* HERO */
 .hero {
   text-align: center;
-  padding: 100px 20px;
+  padding: 20px 20px;
 }
 
 .profile {
@@ -166,7 +166,7 @@ html {
 .tools {
   display: none;
   text-align: center;
-  padding: 40px 20px;
+  padding: 20px 20px;
 }
 
 .tools.active {
@@ -190,7 +190,7 @@ html {
 /* WHY ME */
 .why {
   text-align: center;
-  padding: 60px 20px;
+  padding: 20px 20px;
 }
 
 .why p {
@@ -202,7 +202,7 @@ html {
 /* OPEN TO WORK */
 .open {
   text-align: center;
-  padding: 60px 20px;
+  padding: 20px 20px;
 }
 
 .open p {
